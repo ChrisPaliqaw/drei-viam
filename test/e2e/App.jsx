@@ -2,7 +2,7 @@
 
 import { Suspense, useEffect } from 'react'
 import { Canvas } from '@react-three/fiber'
-import { Box, Environment, CameraControls } from '@react-three/drei' // eslint-disable-line import/no-unresolved
+import { Box, Environment, CameraControls } from 'drei-viam' // eslint-disable-line import/no-unresolved
 
 function App() {
   return (

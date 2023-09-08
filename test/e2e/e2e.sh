@@ -5,7 +5,7 @@ PORT=5188
 DIST=../../dist
 
 (cd $DIST; npm pack)
-TGZ=$(realpath "$DIST/react-three-drei-0.0.0-semantic-release.tgz")
+TGZ=$(realpath "$DIST/drei-viam-0.0.0-semantic-release.tgz")
 
 kill_app() {
   kill $(lsof -ti:$PORT) || echo "ok, no previous running process on port $PORT"
